@@ -10,8 +10,13 @@
  * file that was distributed with this source code.
  */
 
+
 require_once __DIR__.'/../../vendor/autoload.php';
 require_once __DIR__.'/../../src/app.php';
+
+
+require_once __DIR__.'/notify_list/index.php';
+
 
 
 $app->match('/', function () use ($app) {
